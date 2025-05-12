@@ -1,0 +1,100 @@
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: rgb(13, 0, 255) 1px 0 10px;
+}
+
+body{
+    background-color: #ececec;
+    margin: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+   font-size: large;
+   text-align: justify;
+}
+
+#figura{
+    border-radius: 50%;
+}
+
+li{
+    padding:5px;
+}
+
+table{
+    width: 40%;
+    margin: 0 auto;
+   border-spacing: 0;
+}
+
+th, tr, td{
+    border: none;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #dfdfdf;
+}
+
+tbody tr:nth-child(even){
+    background-color: #cecdcd;
+}
+
+tbody td{
+    color: rgb(71, 71, 71);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+thead th{
+    color: #f0f8ff;
+    background-color: #212529;
+    padding: 1rem 0;
+}
+
+tbody tr{
+    padding: .4rem;
+    margin-right: .2rem;
+    width: 1.25rem;
+    text-align: center;
+}
+
+thead th:first-child{
+    border-top-left-radius: 10px;
+}
+
+thead th:last-child{
+    border-top-right-radius: 10px;
+}
+
+tbody tr:last-child>td:first-child{
+    border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child>td:last-child{
+    border-bottom-right-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1c7600;
+}
+
+#mensagem{
+    color:#760c00;
+    margin-top: 8px;
+}
+
+button{
+    background-color: #3e3a3d;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
